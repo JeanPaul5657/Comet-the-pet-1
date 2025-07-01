@@ -6,11 +6,6 @@ import java.util.List;
 import Model.User;
 
 public class UserDAO {
-    public static void main(String[] args) {
-        User user = new User("Daniel");
-        UserDAO dao = new UserDAO();
-        dao.deleteUser(1);
-    }
     private Connection con;
     private PetDAO petDAO;
 
