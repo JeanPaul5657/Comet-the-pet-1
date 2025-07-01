@@ -1,21 +1,16 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class Main{
     public static void main(String[] args){
-        JFrame frame = new JFrame("Comet the pet");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800,450);
 
-        JButton Boton1 = new JButton("Boton1");
-        JButton Boton2 = new JButton("Boton2");
-        JButton Boton3 = new JButton("Boton3");
-        JButton Boton4 = new JButton("Boton4");
-        frame.add(Boton1);
+        JFrame login  = new JFrame("Comet the pet");
+        InicioSesion InicioSesion = new InicioSesion();
+        login.setContentPane(InicioSesion.getIniciosesion());
+        login.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        login.setSize(1200,675);
 
-        JLabel Label1 = new JLabel("Nombre");
-        frame.add(Label1);
-
-        frame.setVisible(true);
+        login.setVisible(true);
     }
 
 }
