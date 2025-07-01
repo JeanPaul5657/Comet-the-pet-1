@@ -1,12 +1,23 @@
+package Model;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
     // Atributos
     private String nombre;
     private int id;
+    private List<Pet> mascotas;
 
     // Constructor
+    public User(String nombre) {
+        this.nombre = nombre;
+        mascotas = new ArrayList<Pet>();
+    }
     public User(String nombre, int id) {
         this.nombre = nombre;
         this.id = id;
+        mascotas = new ArrayList<Pet>();
     }
 
     // Getters
@@ -25,6 +36,14 @@ public class User {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public List<Pet> getMascotas() {
+        return mascotas;
+    }
+
+    public void setMascotas(List<Pet> mascotas) {
+        this.mascotas = mascotas;
     }
 
     // Método para mostrar información del usuario

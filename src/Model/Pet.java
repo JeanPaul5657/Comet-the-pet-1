@@ -1,5 +1,8 @@
+package Model;
+
 public class Pet {
     private String nombre;
+    private int id;
     private int edad;
     private String raza;
     private double peso;
@@ -63,5 +66,14 @@ public class Pet {
         System.out.println("Raza: " + raza);
         System.out.println("Peso: " + peso + " kg");
         System.out.println("Sexo: " + sexo);
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
+    public int getId() {
+        return this.id;
     }
 }
