@@ -147,7 +147,7 @@
             </constraints>
             <properties>
               <font name="Source Code Pro" size="14"/>
-              <text value="Correo electronico"/>
+              <text value="Correo electrónico"/>
             </properties>
           </component>
           <component id="376b6" class="javax.swing.JLabel">
