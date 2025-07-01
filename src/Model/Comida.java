@@ -1,3 +1,5 @@
+package Model;
+
 public class Comida {
     private String tipoMascota;
     private String nombreProducto;
