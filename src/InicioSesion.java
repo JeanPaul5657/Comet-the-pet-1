@@ -21,6 +21,7 @@ public class InicioSesion {
                     JOptionPane.showMessageDialog(null, "Bienvenido");
                     JFrame menu = new JFrame("Comet the pet");
                     PantallaPrincipal PantallaPrincipal = new PantallaPrincipal();
+                    menu.setContentPane(PantallaPrincipal.getPantallaprincipal());
                     menu.setSize(1200,675);
                     menu.setVisible(true);
                 }
@@ -36,6 +37,16 @@ public class InicioSesion {
                 }
                 else
                     contraseñaPasswordField.setEchoChar('*');
+            }
+        });
+        CREARCUENTANUEVAButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame registro = new JFrame("Comet the pet");
+                CrearUsuario CrearUsuario = new CrearUsuario();
+                registro.setContentPane(CrearUsuario.getCrearusuario());
+                registro.setSize(1200,675);
+                registro.setVisible(true);
             }
         });
     }

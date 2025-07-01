@@ -8,7 +8,7 @@ public class PantallaPrincipal {
     private JButton button1;
     private JPanel pantallaprincipal;
 
-    public JPanel getPantallaPrincipal(){
+    public JPanel getPantallaprincipal(){
         return pantallaprincipal;
     }
 }
