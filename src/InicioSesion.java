@@ -1,4 +1,3 @@
-import javax.management.StringValueExp;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -45,12 +44,11 @@ public class InicioSesion {
                 JFrame registro = new JFrame("Comet the pet");
                 CrearUsuario CrearUsuario = new CrearUsuario();
                 registro.setContentPane(CrearUsuario.getCrearusuario());
-                registro.setSize(1200,675);
+                registro.setSize(500,900);
                 registro.setVisible(true);
             }
         });
     }
-
     public JPanel getIniciosesion() {
         return iniciosesion;
     }
