@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CrearUsuario">
+  <grid id="27dc6" binding="crearusuario" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="764" height="499"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="9fdf7" binding="Scroll">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="f1d6b" layout-manager="GridBagLayout">
+            <constraints/>
+            <properties>
+              <preferredSize width="10" height="3508"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="689bc" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="80847" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13475073"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="3091a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-13475073"/>
+                          <text value="Holaaaa"/>
+                        </properties>
+                      </component>
+                      <vspacer id="aecb6">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="9bd34" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-13475073"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="ee39c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="bf98d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre Completo"/>
+                    </properties>
+                  </component>
+                  <component id="ce9be" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Numero de Documento (c.c)"/>
+                    </properties>
+                  </component>
+                  <component id="20a49" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="942bd" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Dirección de Residencia"/>
+                    </properties>
+                  </component>
+                  <component id="97c02" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="bc4cc" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Numero de Telefono Celular"/>
+                    </properties>
+                  </component>
+                  <component id="daa5c" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="452f4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Correo Electronico"/>
+                    </properties>
+                  </component>
+                  <component id="e6f1c" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+                    <constraints>
+                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="92ea2" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Contraseña"/>
+                    </properties>
+                  </component>
+                  <component id="e4303" class="javax.swing.JPasswordField" binding="passwordField2" default-binding="true">
+                    <constraints>
+                      <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="5f648" class="javax.swing.JCheckBox" binding="mostrarContraseñaCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Mostrar Contraseña"/>
+                    </properties>
+                  </component>
+                  <component id="80d6a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Confirmar Contraseña"/>
+                    </properties>
+                  </component>
+                  <component id="e8262" class="javax.swing.JPasswordField" binding="passwordField3" default-binding="true">
+                    <constraints>
+                      <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <grid id="43a7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="4ffbb" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-1"/>
+                          <text value="Holaaaa"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="c1996" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="REGISTRO DE USUARIO"/>
+                    </properties>
+                  </component>
+                  <grid id="189ae" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="be502" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-1"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <hspacer id="84563">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                    </children>
+                  </grid>
+                  <component id="f3a90" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="REGISTRO DE MASCOTAS"/>
+                    </properties>
+                  </component>
+                  <component id="4fb3c" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                    <constraints>
+                      <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="1"/>
+                        <item value="2"/>
+                        <item value="3"/>
+                        <item value="4"/>
+                        <item value="5"/>
+                        <item value="6"/>
+                        <item value="7"/>
+                        <item value="8"/>
+                        <item value="9"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="db7be" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="¿Cuantas mascotas tiene?"/>
+                    </properties>
+                  </component>
+                  <component id="60a7d" class="javax.swing.JLabel" binding="mascota1">
+                    <constraints>
+                      <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 1"/>
+                    </properties>
+                  </component>
+                  <component id="f26d9" class="javax.swing.JLabel" binding="nombremascota1">
+                    <constraints>
+                      <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="37f0" class="javax.swing.JTextField" binding="textFieldnombremascota1">
+                    <constraints>
+                      <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="9333c" class="javax.swing.JLabel" binding="tipomascota1">
+                    <constraints>
+                      <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="f6794" class="javax.swing.JLabel" binding="razamascota1">
+                    <constraints>
+                      <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="50211" class="javax.swing.JTextField" binding="textFieldrazamascota1">
+                    <constraints>
+                      <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="a2e9d" class="javax.swing.JLabel" binding="edadmascota1">
+                    <constraints>
+                      <grid row="28" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="8b9aa" class="javax.swing.JTextField" binding="textFieldedadmascota1">
+                    <constraints>
+                      <grid row="29" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="5fae4" class="javax.swing.JLabel" binding="sexomascota1">
+                    <constraints>
+                      <grid row="30" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="193e6" class="javax.swing.JLabel" binding="alimentomascota1">
+                    <constraints>
+                      <grid row="32" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="c3290" class="javax.swing.JComboBox" binding="JComboBoxtipomascota1">
+                    <constraints>
+                      <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="c0a92" class="javax.swing.JComboBox" binding="JComboBoxsexomascota1">
+                    <constraints>
+                      <grid row="31" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="d4f1a" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota1">
+                    <constraints>
+                      <grid row="33" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="6c37f" class="javax.swing.JLabel" binding="mascota2">
+                    <constraints>
+                      <grid row="34" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 2"/>
+                    </properties>
+                  </component>
+                  <component id="2f508" class="javax.swing.JLabel" binding="nombremascota2">
+                    <constraints>
+                      <grid row="35" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="20f6" class="javax.swing.JTextField" binding="textFieldnombremascota2">
+                    <constraints>
+                      <grid row="36" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="d0a83" class="javax.swing.JLabel" binding="tipomascota2">
+                    <constraints>
+                      <grid row="37" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="80695" class="javax.swing.JLabel" binding="razamascota2">
+                    <constraints>
+                      <grid row="39" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="db5ae" class="javax.swing.JTextField" binding="textFieldrazamascota2">
+                    <constraints>
+                      <grid row="40" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="1fe17" class="javax.swing.JLabel" binding="edadmascota2">
+                    <constraints>
+                      <grid row="41" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="d1ce0" class="javax.swing.JTextField" binding="textFieldedadmascota2">
+                    <constraints>
+                      <grid row="42" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="6373a" class="javax.swing.JLabel" binding="sexomascota2">
+                    <constraints>
+                      <grid row="43" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="e2242" class="javax.swing.JLabel" binding="alimentomascota2">
+                    <constraints>
+                      <grid row="45" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="e61c" class="javax.swing.JComboBox" binding="JComboBoxtipomascota2">
+                    <constraints>
+                      <grid row="38" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="9c5ea" class="javax.swing.JComboBox" binding="JComboBoxsexomascota2">
+                    <constraints>
+                      <grid row="44" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="a8794" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota2">
+                    <constraints>
+                      <grid row="46" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="64184" class="javax.swing.JLabel" binding="mascota3">
+                    <constraints>
+                      <grid row="47" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 3"/>
+                    </properties>
+                  </component>
+                  <component id="41798" class="javax.swing.JLabel" binding="nombremascota3">
+                    <constraints>
+                      <grid row="48" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="272af" class="javax.swing.JTextField" binding="textFieldnombremascota3">
+                    <constraints>
+                      <grid row="49" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="80e89" class="javax.swing.JLabel" binding="tipomascota3">
+                    <constraints>
+                      <grid row="50" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="52993" class="javax.swing.JLabel" binding="razamascota3">
+                    <constraints>
+                      <grid row="52" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="40b2f" class="javax.swing.JTextField" binding="textFieldrazamascota3">
+                    <constraints>
+                      <grid row="53" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="c13f4" class="javax.swing.JLabel" binding="edadmascota3">
+                    <constraints>
+                      <grid row="54" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="3ac99" class="javax.swing.JTextField" binding="textFieldedadmascota3">
+                    <constraints>
+                      <grid row="55" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f25ca" class="javax.swing.JLabel" binding="sexomascota3">
+                    <constraints>
+                      <grid row="56" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="fcc66" class="javax.swing.JLabel" binding="alimentomascota3">
+                    <constraints>
+                      <grid row="58" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="5b39d" class="javax.swing.JComboBox" binding="JComboBoxtipomascota3">
+                    <constraints>
+                      <grid row="51" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="ecbf2" class="javax.swing.JComboBox" binding="JComboBoxsexomascota3">
+                    <constraints>
+                      <grid row="57" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="25449" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota3">
+                    <constraints>
+                      <grid row="59" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="c00c3" class="javax.swing.JLabel" binding="mascota4">
+                    <constraints>
+                      <grid row="60" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 4"/>
+                    </properties>
+                  </component>
+                  <component id="4b35e" class="javax.swing.JLabel" binding="nombremascota4">
+                    <constraints>
+                      <grid row="61" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="2c2e4" class="javax.swing.JTextField" binding="textFieldnombremascota4">
+                    <constraints>
+                      <grid row="62" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="5a750" class="javax.swing.JLabel" binding="tipomascota4">
+                    <constraints>
+                      <grid row="63" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="ab661" class="javax.swing.JLabel" binding="razamascota4">
+                    <constraints>
+                      <grid row="65" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="542bd" class="javax.swing.JTextField" binding="textFieldrazamascota4">
+                    <constraints>
+                      <grid row="66" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="63d8" class="javax.swing.JLabel" binding="edadmascota4">
+                    <constraints>
+                      <grid row="67" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="59a74" class="javax.swing.JTextField" binding="textFieldedadmascota4">
+                    <constraints>
+                      <grid row="68" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="91713" class="javax.swing.JLabel" binding="sexomascota4">
+                    <constraints>
+                      <grid row="69" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="33e91" class="javax.swing.JLabel" binding="alimentomascota4">
+                    <constraints>
+                      <grid row="71" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="189ed" class="javax.swing.JComboBox" binding="JComboBoxtipomascota4">
+                    <constraints>
+                      <grid row="64" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="fcfe8" class="javax.swing.JComboBox" binding="JComboBoxsexomascota4">
+                    <constraints>
+                      <grid row="70" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="aa13b" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota4">
+                    <constraints>
+                      <grid row="72" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="7d014" class="javax.swing.JLabel" binding="mascota5">
+                    <constraints>
+                      <grid row="73" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 5"/>
+                    </properties>
+                  </component>
+                  <component id="9354c" class="javax.swing.JLabel" binding="nombremascota5">
+                    <constraints>
+                      <grid row="74" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="52deb" class="javax.swing.JTextField" binding="textFieldnombremascota5">
+                    <constraints>
+                      <grid row="75" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="8b6e" class="javax.swing.JLabel" binding="tipomascota5">
+                    <constraints>
+                      <grid row="76" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="c5b7" class="javax.swing.JLabel" binding="razamascota5">
+                    <constraints>
+                      <grid row="78" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="20e66" class="javax.swing.JTextField" binding="textFieldrazamascota5">
+                    <constraints>
+                      <grid row="79" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="8f87f" class="javax.swing.JLabel" binding="edadmascota5">
+                    <constraints>
+                      <grid row="80" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="f7c0a" class="javax.swing.JTextField" binding="textFieldedadmascota5">
+                    <constraints>
+                      <grid row="81" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="fc3c6" class="javax.swing.JLabel" binding="sexomascota5">
+                    <constraints>
+                      <grid row="82" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="2eb2d" class="javax.swing.JLabel" binding="alimentomascota5">
+                    <constraints>
+                      <grid row="84" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="ac78c" class="javax.swing.JComboBox" binding="JComboBoxtipomascota5">
+                    <constraints>
+                      <grid row="77" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="5c1df" class="javax.swing.JComboBox" binding="JComboBoxsexomascota5">
+                    <constraints>
+                      <grid row="83" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="90f0c" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota5">
+                    <constraints>
+                      <grid row="85" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="d3571" class="javax.swing.JLabel" binding="mascota6">
+                    <constraints>
+                      <grid row="86" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 6"/>
+                    </properties>
+                  </component>
+                  <component id="91d84" class="javax.swing.JLabel" binding="nombremascota6">
+                    <constraints>
+                      <grid row="87" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="bf08" class="javax.swing.JTextField" binding="textFieldnombremascota6">
+                    <constraints>
+                      <grid row="88" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="3d789" class="javax.swing.JLabel" binding="tipomascota6">
+                    <constraints>
+                      <grid row="89" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="9d57d" class="javax.swing.JLabel" binding="razamascota6">
+                    <constraints>
+                      <grid row="91" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="2c6bc" class="javax.swing.JTextField" binding="textFieldrazamascota6">
+                    <constraints>
+                      <grid row="92" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="93b15" class="javax.swing.JLabel" binding="edadmascota6">
+                    <constraints>
+                      <grid row="93" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="88d6c" class="javax.swing.JTextField" binding="textFieldedadmascota6">
+                    <constraints>
+                      <grid row="94" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="e8817" class="javax.swing.JLabel" binding="sexomascota6">
+                    <constraints>
+                      <grid row="95" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="e0d84" class="javax.swing.JLabel" binding="alimentomascota6">
+                    <constraints>
+                      <grid row="97" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="3d5a3" class="javax.swing.JComboBox" binding="JComboBoxtipomascota6">
+                    <constraints>
+                      <grid row="90" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="4ee57" class="javax.swing.JComboBox" binding="JComboBoxsexomascota6">
+                    <constraints>
+                      <grid row="96" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f4afc" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota6">
+                    <constraints>
+                      <grid row="98" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="6332c" class="javax.swing.JLabel" binding="mascota7">
+                    <constraints>
+                      <grid row="99" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 7"/>
+                    </properties>
+                  </component>
+                  <component id="4d68b" class="javax.swing.JLabel" binding="nombremascota7">
+                    <constraints>
+                      <grid row="100" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="91d29" class="javax.swing.JTextField" binding="textFieldnombremascota7">
+                    <constraints>
+                      <grid row="101" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="dcf04" class="javax.swing.JLabel" binding="tipomascota7">
+                    <constraints>
+                      <grid row="102" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="18210" class="javax.swing.JLabel" binding="razamascota7">
+                    <constraints>
+                      <grid row="104" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="51cbf" class="javax.swing.JTextField" binding="textFieldrazamascota7">
+                    <constraints>
+                      <grid row="105" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="d3a5b" class="javax.swing.JLabel" binding="edadmascota7">
+                    <constraints>
+                      <grid row="106" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="ba300" class="javax.swing.JTextField" binding="textFieldedadmascota7">
+                    <constraints>
+                      <grid row="107" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="cb0d2" class="javax.swing.JLabel" binding="sexomascota7">
+                    <constraints>
+                      <grid row="108" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="f0f6" class="javax.swing.JLabel" binding="alimentomascota7">
+                    <constraints>
+                      <grid row="110" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="b9717" class="javax.swing.JComboBox" binding="JComboBoxtipomascota7">
+                    <constraints>
+                      <grid row="103" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="b0e7f" class="javax.swing.JComboBox" binding="JComboBoxsexomascota7">
+                    <constraints>
+                      <grid row="109" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="b32d8" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota7">
+                    <constraints>
+                      <grid row="111" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="10548" class="javax.swing.JLabel" binding="mascota8">
+                    <constraints>
+                      <grid row="112" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 8"/>
+                    </properties>
+                  </component>
+                  <component id="8c128" class="javax.swing.JLabel" binding="nombremascota8">
+                    <constraints>
+                      <grid row="113" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="6578f" class="javax.swing.JTextField" binding="textFieldnombremascota8">
+                    <constraints>
+                      <grid row="114" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="77633" class="javax.swing.JLabel" binding="tipomascota8">
+                    <constraints>
+                      <grid row="115" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="1eee7" class="javax.swing.JLabel" binding="razamascota8">
+                    <constraints>
+                      <grid row="117" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="49e1" class="javax.swing.JTextField" binding="textFieldrazamascota8">
+                    <constraints>
+                      <grid row="118" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="572a2" class="javax.swing.JLabel" binding="edadmascota8">
+                    <constraints>
+                      <grid row="119" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="1f312" class="javax.swing.JTextField" binding="textFieldedadmascota8">
+                    <constraints>
+                      <grid row="120" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="eeaf3" class="javax.swing.JLabel" binding="sexomascota8">
+                    <constraints>
+                      <grid row="121" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="b4e23" class="javax.swing.JLabel" binding="alimentomascota8">
+                    <constraints>
+                      <grid row="123" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="edfb5" class="javax.swing.JComboBox" binding="JComboBoxtipomascota8">
+                    <constraints>
+                      <grid row="116" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="a54dd" class="javax.swing.JComboBox" binding="JComboBoxsexomascota8">
+                    <constraints>
+                      <grid row="122" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="1c3b9" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota8">
+                    <constraints>
+                      <grid row="124" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="46995" class="javax.swing.JLabel" binding="mascota9">
+                    <constraints>
+                      <grid row="125" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="MASCOTA 9"/>
+                    </properties>
+                  </component>
+                  <component id="9bbd3" class="javax.swing.JLabel" binding="nombremascota9">
+                    <constraints>
+                      <grid row="126" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="2e918" class="javax.swing.JTextField" binding="textFieldnombremascota9">
+                    <constraints>
+                      <grid row="127" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="32f4b" class="javax.swing.JLabel" binding="tipomascota9">
+                    <constraints>
+                      <grid row="128" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Tipo"/>
+                    </properties>
+                  </component>
+                  <component id="be33a" class="javax.swing.JLabel" binding="razamascota9">
+                    <constraints>
+                      <grid row="130" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Raza"/>
+                    </properties>
+                  </component>
+                  <component id="4d221" class="javax.swing.JTextField" binding="textFieldrazamascota9">
+                    <constraints>
+                      <grid row="131" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="be42e" class="javax.swing.JLabel" binding="edadmascota9">
+                    <constraints>
+                      <grid row="132" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Edad"/>
+                    </properties>
+                  </component>
+                  <component id="d04b9" class="javax.swing.JTextField" binding="textFieldedadmascota9">
+                    <constraints>
+                      <grid row="133" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="e857c" class="javax.swing.JLabel" binding="sexomascota9">
+                    <constraints>
+                      <grid row="134" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Sexo"/>
+                    </properties>
+                  </component>
+                  <component id="8bb81" class="javax.swing.JLabel" binding="alimentomascota9">
+                    <constraints>
+                      <grid row="136" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <foreground color="-13475073"/>
+                      <text value="Alimento"/>
+                    </properties>
+                  </component>
+                  <component id="9f049" class="javax.swing.JComboBox" binding="JComboBoxtipomascota9">
+                    <constraints>
+                      <grid row="129" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="228f7" class="javax.swing.JComboBox" binding="JComboBoxsexomascota9">
+                    <constraints>
+                      <grid row="135" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="1b7d2" class="javax.swing.JComboBox" binding="JComboBoxalimentomascota9">
+                    <constraints>
+                      <grid row="137" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="1dffd" class="javax.swing.JButton" binding="GUARDARButton" default-binding="true">
+                    <constraints>
+                      <grid row="138" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="GUARDAR"/>
+                    </properties>
+                  </component>
+                  <grid id="f15e6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c535" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-1"/>
+                          <text value="Holaa"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
