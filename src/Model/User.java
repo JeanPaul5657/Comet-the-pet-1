@@ -1,9 +1,12 @@
 package Model;
 
+import Database.UserDAO;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class User {
+
     // Atributos
     private String nombre;
     private int id;

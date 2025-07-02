@@ -44,7 +44,7 @@
             </constraints>
             <properties>
               <foreground color="-1"/>
-              <text value="Model.Calendario"/>
+              <text value="Calendario"/>
             </properties>
           </component>
           <component id="61918" class="javax.swing.JButton" binding="cerrarSesionButton" default-binding="true">
