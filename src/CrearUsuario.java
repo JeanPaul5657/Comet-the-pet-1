@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class CrearUsuario {
     private JTextField textField1;
@@ -123,6 +125,12 @@ public class CrearUsuario {
 
     public CrearUsuario(){
 
+        comboBox1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comboBox1 == 1)
+            }
+        });
     }
 
     public JPanel getCrearusuario() {
